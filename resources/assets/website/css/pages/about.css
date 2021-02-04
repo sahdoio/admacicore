@@ -1,0 +1,219 @@
+/* about-banner section
+***********************************/
+
+#about-banner {
+    padding: 0;
+    margin-top: -106px;
+    width: 100%;
+    position: relative;
+}
+
+#about-banner .video-background,
+#about-banner .image-background {
+    width: 100%;
+    background: #000;
+}
+
+#about-banner .image-background img {
+    width: 100%;
+}
+
+
+#about #about-banner .about-banner-button {
+    position: absolute;
+    bottom: 130px;
+    left: 50%;
+    margin-left: -134px;
+    z-index: 1;
+    background: url('/storage/media/showreel.png') no-repeat center;
+    width: 268px;
+    height: 40px;
+    display: block;
+    cursor: pointer;
+    background-size: contain;
+}
+
+/* about-reel
+***********************************/
+
+#about #about-reel {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+}
+
+#about .about-reel-overlay {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.9;
+}
+
+#about .about-reel-loader {
+    background: url(/storage/images/load.gif) no-repeat center center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#about .about-reel-video-container {
+    position: absolute;
+    top: 50%;
+    margin-top: -285px;
+    left: 50%;
+    width: 960px;
+    height: 548px;
+    transform: translateX(-50%);
+}
+
+#about #about-reel iframe {
+    width: 100%;
+    height: 100%;
+}
+
+/* about content section
+***********************************/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600');
+#about #about-info {
+    padding: 50px 20px 56px 20px;
+}
+
+#about #about-info .about_row {
+    margin: 0;
+}
+
+#about #about-info .about_row .about-slider {
+    width: 80%;
+    float: left;
+    text-align: center;
+}
+
+#about #about-info .about_text {
+    display: block;
+    height: auto;
+    padding-right: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+#about #about-info .about_inner {
+    float: right;
+    padding: 0 0 20px 0;
+    max-width: 650px;
+    min-width: 550px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#about #about-info .about_inner h2 {
+    color: #191919;
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-top: 0;
+    text-transform: none;
+    font-weight: 400;
+}
+
+#about #about-info .about_inner h2 span {
+    text-transform: none;
+    font-weight: bold;
+}
+
+#about #about-info .about_inner p {
+    color: #404040;
+    font-size: 16px;
+    line-height: 29px;
+    text-align: justify;
+    font-weight: 400;
+}
+
+#about #about-info .details-box {
+    margin-top: 30px;
+}
+
+#about #about-info .details-box .attributes-list .attribute-item {
+    display: block;
+    height: 40px;
+}
+
+#about #about-info .details-box .about-what-i-do {
+    font-size: 16px;
+    color: #404040;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    display: block;
+}
+
+#about #about-info .details-box .about-what-i-do i {
+    font-size: 16px;
+    padding: 7px 7px;
+    border: 3px solid #ccc;
+    border-radius: 50%;
+}
+
+#about #about-info .details-box .about-how-i-do {
+    font-size: 16px;
+    color: #404040;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#about #about-info .details-box .about-how-i-do i {
+    font-size: 16px;
+    padding: 7px 7px;
+    border: 3px solid #ccc;
+    border-radius: 50%;
+}
+
+#about #about-info .about-slider {
+    padding-left: 0;
+    width: 80%;
+    float: right;
+}
+
+#about #about-info .about-slider .about-slider-item {
+    float: right;
+    outline: 0;
+}
+
+#about #about-info .about-slider .about-slider-item img {
+    height: auto;
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+#about #about-info .about-btn {
+    border: 2px solid #afafaf;
+    border-radius: 5px;
+    color: #afafaf;
+    display: inline-block;
+    font-size: 2em;
+    line-height: 29px;
+    margin-top: 50px;
+    padding: 20px 20px;
+    margin: auto;
+    text-align: center;
+}
+
+#about #about-info .about-btn:hover {
+    text-decoration: none;
+    background: #afafaf;
+    color: #fff;
+    border-radius: 50px;
+}
+
+#about #about-info .btn-my-work {
+    width: 49%;
+    float: left;
+}
+
+#about #about-info .btn-hire-me {
+    width: 49%;
+    float: right;
+}

@@ -1,0 +1,253 @@
+/* home content section
+***********************************/
+#album-content {
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-top: -30px;
+    background: #fff;
+    display: block;
+    position: relative;
+}
+
+#album-content .album-top {
+    padding: 5px 0 10px 15px;
+}
+
+#album-content .album-top-wrapper {
+    padding: 10px 0;
+    display: block;
+    border-bottom: 1px solid #c8c8c8;
+}
+
+#album-content .section-title {
+    margin: 0 auto;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#album-content .btn.add {
+    width: 100%;
+    height: 40px;
+    border: 0;
+    border-radius: 20px;
+    color: #fff;
+    float: right;
+}
+
+#album-content .row {
+    margin: 0;
+}
+
+#album-content .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#album-content .row .col {
+    float: left;
+    box-sizing: border-box;
+    padding: 0 0.75rem;
+    min-height: 1px;
+}
+
+#album-content .row .col.s12 {
+    width: 100%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+#album-content .row .col.m6 {
+    width: 50%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+#album-content .section {
+    padding: 70px 15px 0 15px !important;
+}
+
+#album-content #album-area {
+    padding: 10px 15px 0 15px !important;
+}
+
+#album-content .grid {
+    position: relative;
+    list-style: none;
+    text-align: center;
+}
+
+#album-content .album-grid {
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+    border-top: 22px solid #ffb236;
+    border-left: 5px solid #ffb236;
+    border-right: 5px solid #ffb236;
+    border-bottom: 5px solid #ffb236;
+    padding: 10px;
+}
+
+/*item*/
+#album-content .album-grid-item {
+    width: calc(99.4% / 4);
+    display: inline-block;
+    padding: 0;
+}
+
+#album-content .album-grid-item-box {
+    width: 100%;
+    position: relative;
+    display: block;
+    padding: 3px;
+}
+
+#album-content .album-grid-item .grid-img {
+    width: 100%;
+}
+
+#album-content .album-grid-item .video-box iframe {
+    max-width: 270px;
+    height: auto !important;
+}
+
+/*wrapper*/
+#album-content .hover-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+    background: #000;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+#album-content .album-grid-item:hover .hover-wrapper {
+    opacity: 0.7;
+}
+
+/*info box*/
+.album-info-box {
+    display: block;
+    position: absolute;
+    height: auto;
+    top: 3%;
+    right: 2%;
+}
+
+/*name*/
+#album-content .hover-wrapper .album-item-name {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0 20px;
+    height: auto;
+    overflow: hidden;
+}
+
+#album-content .hover-wrapper .album-item-name h2 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 100;
+    margin: 0;
+    font-family: 'Poppins', sans-serif !important;
+    text-transform: uppercase;
+}
+
+/*button*/
+#album-content .hover-wrapper .album-item-button {
+    background: transparent;
+    border: 1px solid #fff;
+    display: inline-block;
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer !important;
+}
+
+#album-content .hover-wrapper .album-item-button:hover {
+    background: #333;
+    border: 1px solid #fff;
+
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+#album-content .hover-wrapper .album-item-button span {
+    font-size: 16px;
+    padding: 1px 10px 1px 10px;
+    line-height: normal;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+#album-content .hover-wrapper .album-item-button:hover span {
+    color: #fff;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+#album-content .album-grid {
+    min-height: 500px;
+}
+
+#album-content .album-grid .no-media {
+    text-align: center;
+    margin-top: 15%;
+}
+
+.blueimp-album > .prev, .blueimp-album > .next {
+    line-height: 41px !important;
+}
+
+.album-links {
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px 10px 30px 10px;
+}
+
+.album-links .pagination .active span {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: #db9635;
+    border-color: #db9635;
+}
+
+.album-links .pagination > li > a,
+.album-links .pagination > li > span {
+    color: #000;
+    border-color: #db96357a;
+    width: 60px;
+}
+
+.album-links .pagination > li > a:hover,
+.album-links .pagination > li > span:hover,
+.album-links .pagination > li > a:focus,
+.album-links .pagination > li > span:focus {
+    z-index: 2;
+    color: #000000;
+    background-color: #db97361a;
+    border-color: #db9635;
+}
+
+#album_form {
+    width: 100%;
+}

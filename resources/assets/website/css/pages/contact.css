@@ -1,0 +1,119 @@
+/*=================================================================
+  contact-info section
+==================================================================*/
+
+#contact-info {
+    padding: 120px 30px 80px 30px;
+    background-color: #F8F8F8;
+}
+
+#contact-info .contact-area {
+    max-width: 1112px;
+    width: 100%;
+    margin: auto;
+}
+
+#contact-info .contact-box {
+    width: 350px;
+    height: 230px;
+    border-bottom: 2px solid #db9636;
+    border-right: 2px solid #db9636;
+    border-radius: 50%;
+    margin: 15px;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+#contact-info .contact-box:hover .contact-icon {
+    background-color: #000;
+}
+
+#contact-info .contact-box .contact-icon {
+    border-radius: 50%;
+    color: #FFF;
+    display: inline-block;
+    font-size: 36px;
+    height: 90px;
+    line-height: 90px;
+    width: 90px;
+    background-color: #db9636;
+    -webkit-transition: background-color 0.2s ease;
+    transition: background-color 0.2s ease;
+}
+
+#contact-info .contact-box .contact-info h3 {
+    margin-top: 35px;
+    font-weight: bold;
+}
+
+#contact-info .contact-box .contact-info p {
+    margin-top: 10px;
+}
+
+/*=================================================================
+    map section
+  ==================================================================*/
+
+#map {
+    padding: 0 0 120px 0px;
+    background-color: #F8F8F8;
+}
+
+#map #map-canvas {
+    height: 450px;
+    width: 100%;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+/*=================================================================
+    quote section
+  ==================================================================*/
+
+#quote {
+    padding: 0 30px 120px 30px;
+    background-color: #F8F8F8;
+}
+
+.form-group label {
+    color: #000;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.form-control {
+    border: 2px solid #000;
+}
+
+.form-group .form-control {
+    padding: 7px 12px;
+    border-color: #f2f2f2;
+    box-shadow: none;
+}
+
+.form-group .btn {
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-weight: 900;
+    background-color: #db9636;
+}
+
+.form-group .btn:hover {
+    background-color: #2ABBFF;
+}
+
+textarea #message {
+    resize: none;
+    padding: 10px;
+}
+
+#quote .contact-wrap {
+    margin-top: 20px;
+    background-color: #e3e3e3;
+    border-radius: 10px;
+    border: 2px solid #db9636;
+    padding: 100px 10px;
+    border-radius: 10px;
+}

@@ -1,0 +1,885 @@
+/*
+====================================================
+===	responsive area
+====================================================
+*/
+
+/* big */
+@media (min-width: 1301px) and (max-width: 1500px) {
+    /***************************
+    ******* 2. Home Page *******
+    ****************************/
+    #news .blog-box .post-wrapper .post .content-box .blog-body {
+        line-height: 19px;
+    }
+
+    /***************************
+    ***** 6. gallery Page *****
+    ****************************/
+    /* gallery section
+    *********************************************/
+    #gallery {
+        padding: 120px 30px;
+    }
+
+    /***************************
+    ***** 7. video Page *****
+    ****************************/
+    /* video-gallery section
+    *********************************************/
+    #video-gallery .video-item .video {
+        width: 350px;
+    }
+
+    #video-gallery .video-item .video iframe {
+        width: 350px;
+        height: 190px;
+    }
+}
+
+
+/* md */
+@media (min-width: 992px) and (max-width: 1300px) {
+
+    /***************************
+    ******* 1. All pages *******
+    ****************************/
+    /* nav bar
+    ********************************************/
+    /*drop-down menu*/
+    #main-menu.navbar-default .dropdown-menu {
+        min-width: 160px;
+        font-size: 14px;
+    }
+
+    /* bottom section
+    ********************************************/
+    #bottom {
+        padding: 20px 12px;
+    }
+
+    /***************************
+    ******* 2. Home Page *******
+    ****************************/
+    /* news section
+    ********************************************/
+    /*blog*/
+    #news .blog-box {
+        height: 820px;
+    }
+
+    #news .blog-box .post-wrapper .post {
+        height: 160px;
+    }
+
+    #news .blog-box .post-wrapper .post .date-box {
+        margin-top: 8px;
+    }
+
+    #news .blog-box .post-wrapper .post .content-box h4 {
+        font-size: 18px;
+    }
+
+    #news .blog-box .post-wrapper .post .content-box p {
+        font-size: 16px;
+        line-height: 15px;
+    }
+
+    #news .midia-box {
+        height: 820px;
+    }
+
+    #news .midia-box .video-box {
+        height: 269px;
+    }
+
+    #news .midia-box .images-box {
+        height: 269px;
+    }
+
+    #news .midia-box .video-box #video-scroller {
+        max-height: 150px !important;
+        overflow: hidden;
+    }
+
+    #news .midia-box .images-box #images-scroller {
+        max-height: 153px;
+        overflow: hidden;
+    }
+
+    #news .blog-box .post-wrapper .post .content-box .blog-body {
+        line-height: 19px;
+    }
+
+    /***************************
+    ***** 6. gallery Page *****
+    ****************************/
+    /* gallery section
+    *********************************************/
+    #gallery {
+        padding: 120px 20px;
+    }
+
+    /***************************
+    ***** 7. video Page *****
+    ****************************/
+    /* video-gallery section
+    *********************************************/
+    #video-gallery .video-item .video {
+        width: 280px;
+    }
+
+    #video-gallery .video-item .video iframe {
+        width: 280px;
+        height: 160px;
+    }
+
+    /***************************
+    ***** 8. Blog Page *****
+    ****************************/
+    /* blog section
+    *********************************************/
+    #blog {
+        padding: 80px 20px;
+    }
+
+    #blog .blog-item .blog-title {
+        font-size: 25px;
+    }
+
+    /*****************************
+    ***** 9. Blog Post Page *****
+    *****************************/
+    /* blog-post section
+    *********************************************/
+    #blog-post {
+        padding: 80px 20px;
+    }
+
+    #blog-post .blog-item .blog-title {
+        font-size: 25px;
+    }
+
+}
+
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /***************************
+    ******* 1. All pages *******
+    ****************************/
+    /* nav bar
+    ********************************************/
+    #main-menu.navbar-default .navbar-nav > li > a {
+        margin-top: 20px;
+        padding: 8px 15px;
+        font-size: 12px;
+    }
+
+    /*drop-down menu*/
+    #main-menu.navbar-default .dropdown-menu {
+        min-width: 150px;
+        font-size: 12px;
+    }
+
+    /* bottom section
+    ********************************************/
+    #bottom {
+        padding: 20px 10px;
+    }
+
+
+    /***************************
+    ******* 2. Home Page *******
+    ****************************/
+    /* slider
+    ********************************************/
+    #home-slider .item-content .title {
+        font-size: 40px;
+    }
+
+    #home-slider .caption-1 {
+        margin-top: -80px;
+    }
+
+    #home-slider .caption-1 h1 {
+        font-size: 70px;
+    }
+
+    #home-slider .caption-1 p {
+        font-size: 16px;
+    }
+
+    #home-slider .caption-2 {
+        width: 500px;
+        margin-top: -100px;
+        padding-left: 70px;
+        padding-right: 10px;
+    }
+
+    #home-slider .caption-2 h1 {
+        font-size: 70px;
+    }
+
+    #home-slider .caption-2 p {
+        font-size: 16px;
+    }
+
+    .caption-2 .btn-start {
+        font-size: 12px;
+        padding: 12px 38px;
+    }
+
+    /* news section
+    ********************************************/
+    /*blog*/
+    #news .blog-box {
+        height: 840px;
+    }
+
+    #news .blog-box .post-wrapper .post {
+        height: 160px;
+    }
+
+    #news .blog-box .post-wrapper .post .date-box {
+        margin-top: 15px;
+    }
+
+    #news .blog-box .post-wrapper .post .content-box h4 {
+        font-size: 14px;
+    }
+
+    #news .blog-box .post-wrapper .post .content-box p {
+        font-size: 14px;
+        line-height: 15px;
+    }
+
+    #news .blog-box .post-wrapper .post .content-box .blog-body {
+        font-size: 14px;
+        line-height: 15px;
+        -webkit-box-orient: vertical;
+    }
+
+    #news .midia-box {
+        height: 840px;
+    }
+
+    #news .midia-box .video-box {
+        height: 269px;
+    }
+
+    #news .midia-box .video-box #video-scroller {
+        max-height: 190px;
+    }
+
+    #news .midia-box .images-box {
+        height: 269px;
+    }
+
+    #news .midia-box .images-box #images-scroller {
+        max-height: 190px;
+    }
+
+    /***************************
+    ******* 3. Team Page *******
+    ****************************/
+    /* ministerio-section
+    *********************************************/
+    #ministerio .row_inner .img-box {
+        width: 300px;
+        height: 187px;
+        margin-top: 22px;
+    }
+
+    /***************************
+    ***** 4. Schedule Page *****
+    ****************************/
+    /* steps sections
+    *********************************************/
+    .section-step .step-desc {
+        margin: 30px auto;
+        text-align: center;
+    }
+
+    .section-step .step-no {
+        width: 95px;
+        height: 95px;
+        margin: auto;
+    }
+
+    .section-step .step-no .no-inner {
+        font-size: 52px;
+        line-height: 86px;
+    }
+
+    .section-step .step-details .step-title-black {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .section-step .step-details .step-title-white {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .section-step .step-details .sub-steps {
+        padding: 0 100px;
+    }
+
+
+    /***************************
+    ***** 6. gallery Page *****
+    ****************************/
+    /* gallery section
+    *********************************************/
+    #gallery {
+        padding: 120px 20px;
+    }
+
+    /***************************
+    ***** 7. video Page *****
+    ****************************/
+    /* video-gallery section
+    *********************************************/
+    #video-gallery .video-item .video {
+        width: 200px;
+    }
+
+    #video-gallery .video-item .video iframe {
+        width: 200px;
+        height: 100px;
+    }
+
+    /***************************
+    ***** 8. Blog Page *****
+    ****************************/
+    /* blog section
+    *********************************************/
+    #blog {
+        padding: 80px 10px;
+    }
+
+    #blog .blog-item .blog-title {
+        font-size: 25px;
+    }
+
+
+    /*****************************
+    ***** 9. Blog Post Page *****
+    *****************************/
+    /* blog-post section
+    *********************************************/
+    #blog-post {
+        padding: 80px 10px;
+    }
+
+    #blog-post .blog-item .blog-title {
+        font-size: 25px;
+    }
+
+    /***************************
+    **** 10. Contact Page  ****
+    ***************************/
+    /* contact section
+    *********************************************/
+    #contact-section .contact .contact-form {
+        width: 600px;
+    }
+
+}
+
+/* xs */
+@media (min-width: 480px) and (max-width: 767px) {
+
+    /***************************
+    ******* 1. All pages *******
+    ****************************/
+    /* nav bar do mobile
+    ********************************************/
+    #main-menu.navbar-default {
+        background-color: #fff;
+        -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
+        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5);
+    }
+
+    .navbar.navbar-default .navbar-toggle {
+        margin-top: 25px;
+    }
+
+    #main-menu.navbar-default .navbar-collapse {
+        background-color: #fff;
+        -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
+        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5);
+
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    #main-menu.navbar-default .navbar-nav {
+        background-color: #fff;
+    }
+
+    #main-menu.navbar-default .navbar-nav > li {
+        background-color: #fff;
+    }
+
+    #main-menu.navbar-default .dropdown-menu {
+        background-color: #fff;
+    }
+
+    /* bottom section
+    ********************************************/
+    #bottom .page-footer {
+        padding-left: 0;
+    }
+
+
+    /* section title and subtitle
+    ********************************************/
+    .section-header .section-title {
+        font-size: 30px;
+    }
+
+    .section-header .section-subtitle {
+        font-size: 14px;
+    }
+
+    /* page banner
+    ********************************************/
+    #page-banner .banner-wrapper .content-box h1 {
+        font-size: 60px;
+    }
+
+
+    /***************************
+    ******* 2. Home Page *******
+    ****************************/
+    /* slider
+    ********************************************/
+    #home-slider .item-content .title {
+        font-size: 35px;
+    }
+
+    #home-slider .caption-1 {
+        margin-top: -80px;
+    }
+
+    #home-slider .caption-1 h1 {
+        font-size: 60px;
+    }
+
+    #home-slider .caption-1 p {
+        font-size: 15px;
+    }
+
+    #home-slider .caption-2 {
+        width: 100%;
+        margin-top: -100px;
+        padding: 0 30px;
+    }
+
+    #home-slider .caption-2 h1 {
+        font-size: 60px;
+    }
+
+    #home-slider .caption-2 p {
+        font-size: 15px;
+    }
+
+    .caption-2 .btn-start {
+        font-size: 12px;
+        padding: 12px 38px;
+    }
+
+    /* news section
+    ********************************************/
+    /*blog*/
+    #news .blog-box {
+        height: 700px;
+    }
+
+    #news .blog-box .post-wrapper .post {
+        height: 120px;
+    }
+
+    #news .blog-box .post-wrapper .post .date-box {
+        margin-top: 5px;
+    }
+
+    #news .blog-box .post-wrapper .post .content-box h4 {
+        font-size: 14px;
+    }
+
+    #news .blog-box .post-wrapper .post .content-box .blog-body {
+        font-size: 14px;
+        line-height: 15px;
+    }
+
+    /***************************
+    ******* 3. Team Page *******
+    ****************************/
+    /* ministerio-section
+    *********************************************/
+    #ministerio .row_inner .img-box {
+        width: 350px;
+        height: 219px;
+    }
+
+    /***************************
+    ***** 4. Schedule Page *****
+    ****************************/
+    /* steps sections
+    *********************************************/
+    .section-step .step-desc {
+        margin: 30px auto;
+        text-align: center;
+    }
+
+    .section-step .step-no {
+        width: 95px;
+        height: 95px;
+        margin: auto;
+    }
+
+    .section-step .step-no .no-inner {
+        font-size: 52px;
+        line-height: 86px;
+    }
+
+    .section-step .step-details .step-title-black {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .section-step .step-details .step-title-white {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .section-step .step-details .sub-steps {
+        padding: 0 25px;
+    }
+
+
+    /***************************
+    ***** 6. gallery Page *****
+    ****************************/
+    /* gallery section
+    *********************************************/
+    #gallery {
+        padding: 120px 20px;
+    }
+
+    /***************************
+    ***** 7. video Page *****
+    ****************************/
+    /* video-gallery section
+    *********************************************/
+    #video-gallery .video-item .video {
+        width: 360px;
+    }
+
+    #video-gallery .video-item .video iframe {
+        width: 360px;
+        height: 180px;
+    }
+
+
+    /***************************
+    ***** 8. Blog Page *****
+    ****************************/
+    /* blog section
+    *********************************************/
+    #blog {
+        padding: 80px 2px;
+    }
+
+    #blog .blog-item .blog-title {
+        font-size: 20px;
+    }
+
+    /*****************************
+    ***** 9. Blog Post Page *****
+    *****************************/
+    /* blog-post section
+    *********************************************/
+    #blog-post {
+        padding: 80px 2px;
+    }
+
+    #blog-post .blog-item .blog-title {
+        font-size: 20px;
+    }
+}
+
+/* XS Portrait */
+@media (max-width: 479px) {
+
+    /***************************
+    ******* 1. All pages *******
+    ****************************/
+    /* nav bar do mobile
+    ********************************************/
+    #main-menu.navbar-default {
+        background-color: #fff;
+        -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
+        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5);
+    }
+
+    .navbar.navbar-default .navbar-toggle {
+        margin-top: 25px;
+    }
+
+    #main-menu.navbar-default .navbar-collapse {
+        background-color: #fff;
+        -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
+        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5);
+
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    #main-menu.navbar-default .navbar-nav {
+        background-color: #fff;
+    }
+
+    #main-menu.navbar-default .navbar-nav > li {
+        background-color: #fff;
+    }
+
+    #main-menu.navbar-default .dropdown-menu {
+        background-color: #fff;
+    }
+
+    /* bottom section
+    ********************************************/
+    #bottom .page-footer {
+        padding-left: 0;
+    }
+
+    /* footer
+    ********************************************/
+    #footer .social-icon {
+        margin-left: -28px;
+    }
+
+    #footer .social-icon ul li {
+        margin-right: 10px;
+    }
+
+    /* section title and subtitle
+    ********************************************/
+    .section-header .section-title {
+        font-size: 30px;
+    }
+
+    .section-header .section-subtitle {
+        font-size: 14px;
+    }
+
+    /* page banner
+    ********************************************/
+    #page-banner .banner-wrapper .content-box h1 {
+        font-size: 40px;
+    }
+
+
+    /***************************
+    ******* 2. Home Page *******
+    ****************************/
+    /* slider
+    ********************************************/
+    #home-slider .item-content {
+        padding: 40px 5%;
+        top: 10%
+    }
+
+    #home-slider .item-content .title {
+        font-size: 30px;
+        max-height: 129px !important;
+    }
+
+
+    /* news section
+    ********************************************/
+    /*blog*/
+    #news .blog-box {
+        height: 665px;
+    }
+
+    #news .blog-box .post-wrapper .post {
+        height: 144px;
+    }
+
+    #news .blog-box .post-wrapper .post .date-box {
+        margin-top: 35px;
+    }
+
+    #news .blog-box .post-wrapper .post .content-box {
+        margin-left: 82px;
+    }
+
+    #news .blog-box .post-wrapper .post .content-box h4 {
+        font-size: 14px;
+    }
+
+    #news .blog-box .post-wrapper .post .content-box p {
+        font-size: 14px;
+        line-height: 15px;
+    }
+
+    #news .blog-box .post-wrapper .post .content-box .blog-body {
+        font-size: 11px;
+        color: #444;
+        line-height: 17px;
+    }
+
+    #news .blog-box .post-wrapper .post .date-box {
+        width: 70px;
+        height: 70px;
+    }
+
+    #news .blog-box .post-wrapper .post .date-box .day {
+        font-size: 25px;
+        font-weight: bold;
+
+        margin-top: 13px;
+        margin-bottom: 5px;
+    }
+
+    #news .blog-box .post-wrapper .post .date-box .month {
+        font-size: 13px;
+        font-weight: bold;
+
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    #news .midia-box {
+        padding: 10px;
+        border-radius: 10px;
+        background-color: #fff;
+        height: 760px;
+        position: relative;
+    }
+
+
+    /***************************
+    ******* 3. Team Page *******
+    ****************************/
+    /* ministerio-section
+    *********************************************/
+    #ministerio .row_inner .img-box {
+        width: 200px;
+        height: 120px;
+    }
+
+
+    /***************************
+    ***** 4. Schedule Page *****
+    ****************************/
+    /* steps sections
+    *********************************************/
+    .section-step .step-no {
+        width: 95px;
+        height: 95px;
+        margin: auto;
+    }
+
+    .section-step .step-no .no-inner {
+        font-size: 52px;
+        line-height: 86px;
+    }
+
+    .section-step .step-details .step-title-black {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .section-step .step-details .step-title-white {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .section-step .step-details .sub-steps span {
+        font-size: 12px;
+    }
+
+    .section-step .step-img {
+        margin: auto;
+    }
+
+
+    /***************************
+    ******* 5. Foto Page *******
+    ****************************/
+    /* gallerys section
+    *********************************************/
+    #gallerys {
+        padding: 120px 1px;
+    }
+
+
+    /***************************
+    ***** 6. gallery Page *****
+    ****************************/
+    /* gallery section
+    *********************************************/
+    #gallery {
+        padding: 120px 2px;
+    }
+
+    #gallery .pagination li a {
+        font-size: 10px;
+        padding: 4px 8px;
+    }
+
+    #gallery .pagination li:first-child a {
+        display: none;
+    }
+
+    #gallery .pagination li:last-child a {
+        display: none;
+    }
+
+    /***************************
+    ***** 7. video Page *****
+    ****************************/
+    /* video-gallery section
+    *********************************************/
+    #video-gallery .video-item .video {
+        width: 300px;
+    }
+
+    #video-gallery .video-item .video iframe {
+        width: 300px;
+        height: 187px;
+    }
+
+    /***************************
+    ***** 8. Blog Page *****
+    ****************************/
+    /* blog section
+    *********************************************/
+    #blog {
+        padding: 80px 2px;
+    }
+
+    #blog .blog-item .blog-title {
+        font-size: 20px;
+    }
+
+    /*****************************
+    ***** 9. Blog Post Page *****
+    *****************************/
+    /* blog-post section
+    *********************************************/
+    #blog-post {
+        padding: 80px 2px;
+    }
+
+    #blog-post .blog-item .blog-title {
+        font-size: 20px;
+    }
+}
+

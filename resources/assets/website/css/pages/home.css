@@ -1,0 +1,514 @@
+/***************************
+** generic
+***************************/
+
+.media {
+	margin-top: 0;
+}
+
+/***************************
+** main slider
+***************************/
+
+#home #main-slider {
+	background-color: #000;
+	padding: 0;
+}
+
+#home #main-slider .carousel {
+	opacity: 0.9;
+}
+
+#home #main-slider .item {}
+
+#home #main-slider .fill {
+	z-index: 100;
+	position: relative;
+	display: block;
+}
+
+#home #main-slider .fill:after {
+	content: "";
+	background: #000;
+	opacity: 0.5;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: 1;
+}
+
+#home #main-slider .item .slider-title {
+	text-transform: uppercase;
+	position: relative;
+	text-align: center;
+	z-index: 10;
+	height: auto;
+	margin: 0 auto;
+	padding-top: 20px;
+	width: 70% !important;
+	color: #fff !important;
+	padding-bottom: 30px;
+	display: table !important;
+	vertical-align: middle;
+	height: 100%;
+}
+
+#home #main-slider .item .slider-title h2 {
+	color: #fff;
+	height: auto;
+	overflow: hidden;
+	font-size: 80px;
+	max-width: 75%;
+	margin: 0 auto;
+	padding: 5px 0;
+	line-height: 120px;
+	display: table-cell;
+	vertical-align: middle;
+	-webkit-transition: all 0.7s ease 0s;
+	transition: all 0.7s ease 0s;
+}
+
+#home #main-slider .item .slider-subtitle {
+	text-transform: uppercase;
+	position: absolute;
+	text-align: center;
+	top: 62%;
+	display: block;
+	z-index: 10;
+	height: auto;
+	padding-top: 20px;
+	right: 20%;
+	left: 20%;
+	color: #fff !important;
+	padding-bottom: 30px;
+}
+
+#home #main-slider .item .slider-subtitle a {
+	color: rgba(0, 0, 0, 0.76);
+	font-size: 18px;
+	display: inline;
+	font-family: 'Raleway', sans-serif;
+	background-color: rgba(200, 200, 202, 0.4);
+	transform: matrix(1, 0, 0, 1, 0, 0);
+	padding: 3px 42px;
+	letter-spacing: 6px;
+	transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+}
+
+#home #main-slider .item .slider-subtitle a:hover {
+	opacity: 1;
+	background-color: rgba(200, 200, 202, 1);
+	padding: 2px 36px;
+	letter-spacing: 5px;
+}
+
+#home #main-slider .icon-prev,
+#home #main-slider .icon-next {
+	font-size: 60px;
+}
+
+#home #main-slider .carousel-indicators li {
+	margin: 0 5px;
+	width: 12px;
+	height: 12px;
+}
+
+/***************************
+** who-we-are section
+***************************/
+
+#who-we-are {
+	padding: 120px 20px 160px 20px;
+	background-color: #FFFFFF;
+}
+
+/***************************
+** skills-area section
+***************************/
+
+#skills-area {
+	background-image: url(http://lider.drekod.com/themes/lidere_v1/images/bg/building.jpg);
+	padding-bottom: 70px;
+	padding-top: 70px;
+	position: relative;
+}
+#skills-area:after {
+	content: ' ';
+	display: block;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #000;
+	opacity: 0.8;
+}
+#skills-area .container {
+	position: relative;
+	z-index: 2;
+}
+
+#skills-area .section-header .section-title {
+	color: #ffffff;
+}
+
+#skills-area .section-header .section-title:before {
+	background: #ffffff;
+	height: 1px;
+}
+
+#skills-area .section-header .section-title:after {
+	border-color: #ffffff;
+}
+
+#skills-area .our-skills {
+	padding: 20px 10px 45px 10px;
+}
+
+#skills-area .progress {
+	overflow: visible;
+	height: 25px;
+	margin-bottom: 20px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: 3px solid #ffffff;
+	background-color: transparent;
+}
+
+#skills-area .progress .percent {
+	position: relative;
+	background-color: #222;
+	padding: 7px;
+	color: #FFF;
+	top: -23px;
+}
+
+#skills-area .progress .percent:after {
+	content: "";
+	position: absolute;
+	left: 50%;
+	margin-left: -4px;
+	bottom: -4px;
+	width: 0;
+	height: 0;
+	border-left: 4px solid rgba(0, 0, 0, 0);
+	border-right: 4px solid rgba(0, 0, 0, 0);
+	border-top: 4px solid #222;
+}
+
+#skills-area .progress-bar {
+	font-size: 10px;
+	line-height: 7px;
+	text-align: right;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	background-color: #0091e0;
+}
+
+#skills-area .progress-lebel h6 {
+	margin-bottom: 10px;
+	letter-spacing: 2px;
+	font-size: 21px;
+}
+
+#skills-area .content p {
+	font-size: 18px;
+}
+
+
+#skills-area .row .col-sm-6 {}
+
+#skills-area .row .col-sm-6 .img-box {
+	height: 762px;
+}
+
+#skills-area .row .col-sm-6 .img-box img {
+	position: absolute;
+	margin: auto auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+#skills-area .media.service-box {
+	min-height: 100px;
+}
+
+#skills-area .media.service-box .pull-left {
+	margin-right: 20px;
+}
+
+#skills-area .media.service-box .pull-left>i {
+	font-size: 24px;
+	height: 64px;
+	line-height: 64px;
+	text-align: center;
+	width: 64px;
+	border-radius: 100%;
+	color: #db9736;
+	box-shadow: inset 0 0 0 1px #d7d7d7;
+	-webkit-box-shadow: inset 0 0 0 1px #d7d7d7;
+	transition: background-color 400ms, background-color 400ms;
+	position: relative;
+}
+
+#skills-area .media.service-box .pull-left>i:after {
+	content: "";
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	top: 50%;
+	margin-top: -10px;
+	right: -10px;
+	border: 4px solid #fff;
+	border-radius: 20px;
+	background: #db9736;
+}
+
+#skills-area .media.service-box:hover .pull-left>i {
+	background-image: -moz-linear-gradient(90deg, #db9736 0%, #db9736 100%);
+	background-image: -webkit-linear-gradient(90deg, #db9736 0%, #db9736 100%);
+	background-image: -ms-linear-gradient(90deg, #db9736 0%, #db9736 100%);
+	color: #fff;
+	box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.8);
+	-webkit-box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.8);
+}
+
+#skills-area  .media-body p {
+	font-size: 18px;
+}
+
+
+/***************************
+** what-we-do section
+***************************/
+
+#what-we-do {
+	padding: 120px 30px;
+	background-color: #F6F6F6;
+}
+
+.what-we-do-area {
+	margin: auto;
+}
+
+#what-we-do .what-we-do-box {
+	width: 350px;
+	height: 275px;
+	border: 2px solid #d1d1d1;
+	border-radius: 10px;
+	margin: 15px;
+	padding: 20px 15px 10px 15px;
+	text-align: center;
+	overflow: hidden;
+}
+
+#what-we-do .what-we-do-box:hover .what-we-do-icon {
+	background-color: #000000;
+}
+
+#what-we-do .what-we-do-box .what-we-do-icon {
+	border-radius: 50%;
+	color: #FFF;
+	display: inline-block;
+	font-size: 36px;
+	height: 90px;
+	line-height: 90px;
+	width: 90px;
+	background-color: #db9636;
+	-webkit-transition: background-color 0.2s ease;
+	transition: background-color 0.2s ease;
+}
+
+#what-we-do .what-we-do-box .what-we-do-info .service-titile {
+	margin-top: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+#what-we-do .what-we-do-box .what-we-do-info .service-description {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	max-height: 72px;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+
+/***************************
+** fun fact area
+***************************/
+
+#fun-fact-area {
+	padding: 160px 20px;
+	background-image: url(http://lider.drekod.com/themes/lidere_v1/images/bg/building.jpg);
+	position: relative;
+}
+#fun-fact-area:after {
+	content: ' ';
+	display: block;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #000000ab;
+}
+#fun-fact-area .container {
+	position: relative;
+	z-index: 2;
+}
+
+#fun-fact-area .single-fact i {
+	color: #ffffff;
+	display: inline-block;
+	font-size: 48px;
+	margin-bottom: 28px;
+}
+
+#fun-fact-area .single-fact h5 {
+	color: #ffffff;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+#fun-fact-area .single-fact h2 {
+	color: #ffffff;
+	font-size: 30px;
+}
+
+/***************************
+** clients area 
+***************************/
+
+#clients-area {
+	padding: 150px 20px 150px 20px !important;
+}
+
+#clients-area.home-style-3:before {
+	background: transparent;
+}
+
+#clients-area.home-style-3:after {
+	content: unset;
+}
+
+#clients-area #clients-area-trigger {
+	position: relative;
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+}
+
+#clients-area .cover {
+	background-color: transparent;
+	height: 100%;
+	width: 100%;
+	padding: 15px 0;
+}
+
+#clients-area .text-box {
+	position: relative;
+	display: table;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#clients-area .fun-fact-area-slider {
+	margin: auto;
+}
+
+#clients-area #owl-demo {}
+
+#clients-area #owl-demo .item {
+	display: block;
+	top: 28%;
+	margin: 0 10px;
+	border-radius: 50%;
+}
+
+#clients-area #owl-demo .item img {
+	display: block;
+	width: 100%;
+	height: auto;
+	border-radius: 50%;
+}
+
+#clients-area .owl-theme .owl-controls {
+	top: 33%;
+}
+
+#clients-area .owl-theme .owl-controls .owl-buttons div {
+	border-radius: 0;
+	margin: 0;
+	height: 95px;
+	position: absolute;
+	width: 45px;
+	text-indent: -99999px;
+	display: none;
+	background-color: rgba(255, 255, 255, 0);
+}
+
+#clients-area .owl-carousel:hover .owl-buttons div {
+	display: block;
+}
+
+#clients-area .owl-theme .owl-controls .owl-buttons div.owl-prev {
+	left: 0px;
+	background: rgba(255, 255, 255, 0) url(../img/fun-fact-area/left-arrow.png) no-repeat 0px 5px;
+}
+
+#clients-area .owl-theme .owl-controls .owl-buttons div.owl-prev:hover {
+	background: rgba(255, 255, 255, 0) url(../img/fun-fact-area/left-arrow-hover.png) no-repeat 0px 5px;
+}
+
+#clients-area .owl-theme .owl-controls .owl-buttons div.owl-next {
+	right: 0px;
+	background: rgba(255, 255, 255, 0) url(../img/fun-fact-area/right-arrow.png) no-repeat 0px 5px;
+}
+
+#clients-area .owl-theme .owl-controls .owl-buttons div.owl-next:hover {
+	background: rgba(255, 255, 255, 0) url(../img/fun-fact-area/right-arrow-hover.png) no-repeat 0px 5px;
+}
+
+#clients-area .fun-fact-area-block {
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+
+#clients-area .fun-fact-area-block .caption {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	-webkit-transition: background-color 0.6s ease;
+	transition: background-color 0.6s ease;
+}
+
+#clients-area .fun-fact-area-block:hover .caption {
+	background: transparent;
+}
+
+#clients-area .fun-fact-area-block .caption a {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+
+#clients-area .caption .btn {
+	background: transparent;
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+	padding: 5px;
+}

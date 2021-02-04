@@ -1,0 +1,26 @@
+.letter-box {
+    /* height: 750px; */
+    background: #3d3d3d;
+}
+
+.card {
+    padding: 20px 35px 40px 35px;
+}
+
+.letter-not-found-image {
+    font-size: 32px;
+}
+
+.letter-card-template {
+    width: auto;
+    position: relative;
+    top: 21%;
+}
+
+.letter-card-template iframe {
+    width: 100%;
+    height: 600px;
+    display: block;
+    position: relative;
+    overflow: auto;
+}

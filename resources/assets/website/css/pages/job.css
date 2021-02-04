@@ -1,0 +1,190 @@
+/******************************
+*** Jobview Page
+*******************************/
+
+/* jobview content
+***********************************/
+
+#job-content {
+    padding: 10px 20px 5px 20px !important;
+}
+
+#job-content .job-details {
+    width: 100%;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#job-content .product-info {
+    margin: 20px 0;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    border-right: 2px solid #2694c7;
+    border-bottom: 2px solid #2694c7;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+}
+
+#job-content .job.service-box .pull-left {
+    margin-right: 5px;
+}
+
+#job-content .job.service-box .pull-left>i {
+    font-size: 15px;
+    height: 30px;
+    line-height: 30px;
+    width: 30px;
+    text-align: center;
+    border-radius: 100%;
+    color: #afafaf;
+    box-shadow: inset 0 0 0 1px #d7d7d7;
+    -webkit-box-shadow: inset 0 0 0 1px #d7d7d7;
+    transition: background-color 400ms, background-color 400ms;
+    position: relative;
+}
+
+#job-content .job.service-box .pull-left>i:after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 50%;
+    margin-top: -5px;
+    right: -4px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    background: #afafaf;
+}
+
+#job-content .job.service-box:hover .pull-left>i {
+    background-image: -moz-linear-gradient(90deg, #2694c7 0%, #2694c7 100%);
+    background-image: -webkit-linear-gradient(90deg, #afafaf 0%, #a94442 100%);
+    background-image: -ms-linear-gradient(90deg, #2694c7 0%, #2694c7 100%);
+    color: #fff;
+    box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.8);
+    -webkit-box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.8);
+}
+
+#job-content .service-box .job-body h4 {
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#job-content .service-box .job-body p {
+    font-family: 'Open Sans', sans-serif;
+    color: #404040;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: justify;
+    font-weight: 400;
+}
+
+#job-content .job-info {
+    padding: 50px 10px 10px 40px;
+}
+
+#job-content .jobview-title {
+    font-size: 45px;
+    color: #000;
+    margin: 0;
+}
+
+#job-content .job-view {
+    width: 100%;
+}
+
+#job-content .job-view .job-item {
+    padding: 0;
+    margin-bottom: 45px;
+}
+
+#job-content .job-video {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+#job-content .job-video .video-box {
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+
+#job-content .job-image {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+#job-content .job-image .img-box {
+    overflow: hidden;
+    margin: auto;
+    width: 100%;
+}
+
+#job-content .job-image .img-box img {
+    width: 100%;
+}
+
+#job-content .jobview-switcher {
+    position: fixed;
+    top: 87px;
+    right: 2%;
+    background: #transparent;
+    width: auto;
+    margin-top: 50px;
+}
+
+#job-content .jobview-switcher-content a {
+    display: block;
+    float: left;
+    width: 38px;
+    height: 38px;
+    opacity: 1;
+    background-color: #2e2e2e;
+    cursor: pointer;
+    border-bottom-width: 0px;
+}
+
+#job-content .jobview-switcher-content a:hover {
+    background-color: #afafaf;
+}
+
+#job-content .jobview-switcher-prev {
+    margin-right: 3px;
+}
+
+#job-content .jobview-switcher-prev:before {
+    font-family: FontAwesome;
+    font-style: normal;
+    speak: none;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    content: "\f104";
+    text-align: center;
+    display: block;
+    vertical-align: middle;
+    color: #f0f0f0;
+    width: 36px;
+    line-height: 37px !important;
+    font-size: 21px;
+}
+
+#job-content .jobview-switcher-next:before {
+    font-family: FontAwesome;
+    font-style: normal;
+    speak: none;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    content: "\f105";
+    text-align: center;
+    display: block;
+    vertical-align: middle;
+    color: #f0f0f0;
+    width: 36px;
+    line-height: 37px !important;
+    font-size: 21px;
+    float: right;
+}

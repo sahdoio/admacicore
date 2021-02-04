@@ -1,0 +1,35 @@
+#clients-area {
+    padding: 120px 30px;
+    background-color: #F6F6F6;
+}
+
+#clients-area .clients_item {
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+}
+
+#clients-area .og-grid .clients_item>a {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    border-radius: 50%;
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    height: 250px;
+    background-color: #000;
+    border: 1px solid #db9736;
+}
+
+#clients-area .og-grid .clients_item>a:hover {
+    background-color: #db9636;
+}
+
+#clients-area .og-grid .clients_item a img {
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 0.6s ease 0s;
+    -moz-transition: all 0.6s ease 0s;
+    -o-transition: all 0.6s ease 0s;
+}

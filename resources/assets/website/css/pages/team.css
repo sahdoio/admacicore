@@ -1,0 +1,48 @@
+.divider.row {
+    border-bottom: 2px solid #cccccc63;
+}
+
+#team-header {
+    padding: 80px 20px 10px 20px;
+}
+
+#team-area {
+    padding: 70px 0;
+}
+
+#team-area .member-slider-imgbox {
+    display: block;
+    border: 1px solid #db9636;
+    border-radius: 10px;
+    width: 280px;
+    overflow: hidden;
+}
+
+#team-area .member-slider-imgbox img {
+    width: 100%;
+}
+
+#team-area .row.member_row {
+    padding: 25px 0;
+    max-width: 990px;
+    margin: 0 auto;
+}
+
+#team-area .row.member_row ul {
+    list-style: initial;
+    text-decoration: initial;
+}
+
+#team-area .row.member_row ul li { 
+    padding: 5px 0;
+}
+
+#team-area .member-name {
+    font-size: 26px;
+}
+
+#team-area .member-description {
+    padding: 20px 0;
+    font-size: 17px;
+    margin-left: 20px;
+}

@@ -1,0 +1,116 @@
+#blog-post-content {
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-top: -30px;
+}
+
+#blog-post-content .section {
+    padding: 35px 0;
+}
+
+#blog-post-content .section-title {
+    margin: 0 auto;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#blog-post-content .profile-img-row .dropify-wrapper {
+    height: 150px;
+}
+
+#blog-post-content .bg-row .dropify-wrapper {
+    height: 400px;
+}
+
+#blog-post-content .bg-row .dropify-render video {
+    height: 100%;
+}
+
+#blog-post-content .left-title {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 5%;
+}
+
+#blog-post-content .box-footer {
+    display: block;
+    width: 100%;
+}
+
+#blog-post-content .box-footer:after {
+    display: block;
+    content: '';
+    clear: both;
+    width: 100%;
+}
+
+#blog-post-content .btn-edit {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    height: 45px;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: none;
+}
+
+#blog-post-content .btn-edit.save {
+    width: 49% !important;
+    float: right;
+}
+
+#blog-post-content .btn-edit.save:hover {
+    background: #00a4cd !important;
+}
+
+#blog-post-content .btn-edit.new {
+    width: 100% !important;
+}
+
+#blog-post-content .btn-edit.new:hover {
+    background: #00a4cd !important;
+}
+
+#blog-post-content .btn-edit.delete {
+    width: 49% !important;
+    float: left;
+    background: #cd4c4c;
+}
+
+#blog-post-content .btn-edit.delete:hover {
+    background: #ff4242 !important;
+}
+
+#blog-post-content .select-wrapper {
+    width: 100%;
+}
+
+#blog-post-content .select-wrapper button,
+#blog-post-content .select-wrapper button:hover {
+    border: 1px solid #9A9A9A;
+    color: #2c2c2c !important;
+    background: transparent !important;
+    border-color: #9A9A9A !important;
+    width: 100%;
+}
+
+button.btn#add-media {
+    width: 100% !important;
+}
+
+#blog-post-content .btn-delete-media,
+#blog-post-content .btn-delete-media:focus {
+    position: absolute;
+    font-size: 20px;
+    top: 12px;
+    right: 0;
+    z-index: 10;
+    color: red;
+    cursor: pointer;
+    background: transparent;
+    border: none !important;
+    outline: none;
+}

@@ -1,0 +1,167 @@
+/***************************
+** who-we-are section
+***************************/
+#who-we-are {
+    padding: 120px 20px 160px 20px;
+    background-color: #FFFFFF;
+}	
+#who-we-are .row .col-sm-6 {
+}
+#who-we-are .row .col-sm-6 .img-box {
+	height: 762px;
+}
+#who-we-are .row .col-sm-6 .img-box img {
+	position: absolute;
+	margin: auto auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+#who-we-are .media.service-box {
+  	margin: 20px 0;
+}
+#who-we-are .media.service-box .pull-left {
+	margin-right: 20px;
+}
+#who-we-are .media.service-box .pull-left > i {
+	font-size: 24px;
+	height: 64px;
+	line-height: 64px;
+	text-align: center;
+	width: 64px;
+	border-radius: 100%;
+	color: #db9736;
+	box-shadow: inset 0 0 0 1px #d7d7d7;
+	-webkit-box-shadow: inset 0 0 0 1px #d7d7d7;
+	transition: background-color 400ms, background-color 400ms;
+	position: relative;
+}
+#who-we-are .media.service-box .pull-left > i:after {
+	content: "";
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	top: 50%;
+	margin-top: -10px;
+	right: -10px;
+	border: 4px solid #fff;
+	border-radius: 20px;
+	background: #db9736;
+}
+#who-we-are .media.service-box:hover .pull-left > i {
+	background-image: -moz-linear-gradient(90deg, #db9736 0%, #db9736 100%);
+	background-image: -webkit-linear-gradient(90deg, #db9736 0%, #db9736 100%);
+	background-image: -ms-linear-gradient(90deg, #db9736 0%, #db9736 100%);
+	color: #fff;
+	box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.8);
+	-webkit-box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.8);
+}
+
+
+/***************************
+** skills-area section
+***************************/
+#skills-area {
+    background-image: url(http://drekod.com/portfolio/onedesire/img/bg/features-bg.jpg);
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+
+#skills-area .section-header .section-title {
+    color: #ffffff;
+}
+#skills-area .section-header .section-title:before {   
+    background: #ffffff;
+    height: 1px;
+}
+#skills-area .section-header .section-title:after {   
+    border-color: #ffffff;
+}
+
+#skills-area .our-skills {
+	padding: 20px 10px 45px 10px;
+}
+#skills-area .progress {	
+	overflow: visible;
+	height: 25px;
+	margin-bottom: 20px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: 3px solid #ffffff;
+	background-color: transparent;
+}
+#skills-area .progress .percent {
+	position: relative;
+	background-color: #222;
+	padding: 7px;
+	color: #FFF;
+	top: -23px;
+}
+#skills-area .progress .percent:after {
+	content: "";
+	position: absolute;
+	left: 50%;
+	margin-left: -4px;
+	bottom: -4px;
+	width: 0;
+	height: 0;
+	border-left: 4px solid rgba(0, 0, 0, 0);
+	border-right: 4px solid rgba(0, 0, 0, 0);
+	border-top: 4px solid #222;
+}
+#skills-area .progress-bar {
+	font-size: 10px;
+	line-height: 7px;
+	text-align: right;
+	-webkit-box-shadow: none;
+	box-shadow: none;	
+	background-color: #0091e0;
+}
+#skills-area .progress-lebel h6 {
+	margin-bottom: 10px;
+	letter-spacing: 2px;
+	font-size: 16px;
+}
+
+/***************************
+** what-we-do section
+***************************/
+#what-we-do {
+	padding: 120px 30px;
+	background-color: #F6F6F6;
+  }
+  .what-we-do-area {
+	margin: auto;
+  }
+  #what-we-do .what-we-do-box {
+	width: 350px;
+	height: 275px;
+	border: 2px solid #d1d1d1;
+	border-radius: 10px;
+	margin: 15px;
+	padding: 20px 15px 10px 15px;
+	text-align: center;
+	overflow: hidden;
+	}
+  #what-we-do .what-we-do-box:hover .what-we-do-icon {
+	background-color: #000000;
+	}
+  #what-we-do .what-we-do-box .what-we-do-icon {
+	border-radius: 50%;
+	color: #FFF;
+	display: inline-block;
+	font-size: 36px;
+	height: 90px;
+	line-height: 90px;
+	width: 90px;
+	background-color: #db9636;
+	-webkit-transition: background-color 0.2s ease;
+	transition: background-color 0.2s ease;
+	}
+  #what-we-do .what-we-do-box .what-we-do-info h3 {
+	margin-top: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+	}

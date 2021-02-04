@@ -1,0 +1,115 @@
+/******************************
+*** Home Page
+******************************/
+
+/* home content section
+***********************************/
+#gallery .gallery-grid {
+	display: block;
+	width: 102%;
+}
+
+/*item*/
+#gallery .gallery-grid-item {
+	width: calc(99.4%/3);
+	display: inline-block;
+	padding: 0;
+    border: 1px solid #db9602;
+}
+#gallery .gallery-grid-item-box {
+	width: 100%;
+	position: relative;
+	display: block;
+}
+#gallery .gallery-grid-item .grid-img {
+	width: 100%;
+}
+
+/*wrapper*/
+#gallery .hover-wrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+	text-align: center;
+	background: #000;
+	opacity: 0;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+#gallery .gallery-grid-item:hover .hover-wrapper {
+	opacity: 0.7;
+}
+
+/*info box*/
+.gallery-info-box {
+    display: block;
+    width: 100%;
+    position: absolute;
+    height: auto;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/*name*/
+#gallery .hover-wrapper .gallery-item-name {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0 20px;
+    height: auto;
+    overflow: hidden;
+}
+#gallery .hover-wrapper .gallery-item-name h2 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 100;
+    margin: 0;
+    font-family: 'Poppins', sans-serif !important;
+    text-transform: uppercase;
+}
+
+/*button*/
+#gallery .hover-wrapper .gallery-item-button {
+    background: transparent;
+    border: 1px solid #fff;
+    display: inline-block;
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    text-decoration: none;
+}
+#gallery .hover-wrapper .gallery-item-button:hover {
+    background: #333;
+    border: 1px solid #fff;
+
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+#gallery .hover-wrapper .gallery-item-button span {
+    font-size: 16px;
+    padding: 8px 25px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+#gallery .hover-wrapper .gallery-item-button:hover span {
+    color: #fff;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.blueimp-gallery>.prev,.blueimp-gallery>.next {
+    line-height: 41px !important;
+}

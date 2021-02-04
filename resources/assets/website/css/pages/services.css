@@ -1,0 +1,67 @@
+/**********************
+** Generic
+****************/
+
+.image-area {
+    margin-top: 5%;
+}
+
+.description-area {
+    margin-top: 20px;
+}
+
+.description-area p {
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+.section-text { 
+    text-align: center;
+    font-size: 20px;
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+/***************************
+** all service sections
+***************************/
+.service {
+    padding: 55px 20px 55px 20px;
+    margin: 0;
+}
+
+.service .image-area {
+    max-width: 450px;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    border: 5px solid #db9636;
+    text-align: left;
+    position: relative;
+    display: block;
+    border-radius: 5px;   
+}
+
+.service.right .image-area {
+    text-align: right;
+    float: right;
+}
+
+.service .image-area img {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    border-radius: 2px;
+    margin-left: 0;
+}
+
+.service .info-wrapper {
+    display: table !important;
+    vertical-align: middle;
+    min-height: 350px;
+}
+
+.service .info-wrapper .info {
+    display: table-cell;
+    vertical-align: middle;
+}
