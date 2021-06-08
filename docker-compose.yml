@@ -2,7 +2,7 @@ version: '3'
 
 services:
     nginx:
-        container_name: rodrigoreasom-nginx
+        container_name: admanicore-nginx
         image: nginx
         ports:
             - '8082:80'
@@ -18,15 +18,15 @@ services:
         build:
             context: .
             dockerfile: ./docker/phpfpm.docker
-        container_name: rodrigoreasom-php
-        image: rodrigoreasom/php
+        container_name: admanicore-php
+        image: admanicore/php
         ports:
             - '9005:9000'
         volumes:
             - ./:/var/www
 
     mysql:
-        container_name: rodrigoreasom-mysql
+        container_name: admanicore-mysql
         image: mysql:5.7
         ports:
             - '3307:3306'
@@ -34,16 +34,17 @@ services:
             - ./docker/mysql/my.cnf:/etc/mysql/my.cnf
         environment:
             - MYSQL_ROOT_PASSWORD=root
-            - MYSQL_DATABASE=rodrigoreasom
+            - MYSQL_DATABASE=admanicore
             - MYSQL_USER=admin
             - MYSQL_PASSWORD=secret
 
     nodejs:
+        container_name: admanicore-nodejs
         build:
             context: .
-            dockerfile: ./docker/nodejs.docker
-        container_name: rodrigoreasom-nodejs
-        image: rodrigoreasom/nodejs
+            dockerfile: docker/nodejs.docker
+        container_name: admanicore-nodejs
+        image: admanicore/nodejs
+        command: bash -c "npm install && npm run watch"
         volumes:
-            - ./:/var/www
-        working_dir: /var/www
+            - ./:/app
